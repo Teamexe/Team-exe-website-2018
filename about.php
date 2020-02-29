@@ -38,8 +38,8 @@ We are passionate about technology & our curiousity drives us towards the develo
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s" >
-                        <img src="images/coordinators.jpg" alt="" class="img-responsive">
-                        <img src="images/executives.jpg" alt="" class="img-responsive">
+                        <img src="images/about_1.jpg" alt="" class="img-responsive">
+                        <img src="images/about_2.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-6">
                         <div class="block">

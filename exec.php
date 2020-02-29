@@ -20,7 +20,7 @@
   <body>
 <?php 
       include_once('header.php');
-      include_once('navigation.php');
+ include_once('navigation.php');
 ?>       
 </div>
 <center>

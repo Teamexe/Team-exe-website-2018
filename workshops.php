@@ -19,11 +19,11 @@
   </head>
 
   <body>
-<?php 
+  <?php 
       include_once('header.php');
       include_once('navigation.php');
-?>       
-    <center>
+?> 
+  <center>
     <div class="container">
     <h1>Workshops by Team .EXE</h1>
 </div>
@@ -35,27 +35,66 @@
                             include_once('workshop_embed.php');
                     ?>
 
-						<div class="col-md-8">
+
+                            <div class="col-md-8">
                                 <article class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
                                     <div class="blog-post-image">
                                         
                                     </div>
                                     <div class="blog-content">
 
-                                        <h2 class="blogpost-title">
-                                        <a>Description of Workshops</a>
-                                        </h2>
-                                        <p>
-                                            Coming soon.
-                                        </p>
+                                        <?php 
+
+     $p_id=$_GET['w_id'];
+      $query= "Select * from workshop_info Where w_id='$w_id'";
+      $result = mysqli_query($link,$query);
+      if(!$result){
+         echo"nip";
+      }
+  
+      
+?>       
+    <center>
+    <?php
+while($disp=mysqli_fetch_assoc($result)){
+  $name=$disp['p_name'];
+  $abstract=$disp['p_abstract'];
+  
+
+
+
+}
+
+?><div style ="width:1090px">
+<div class="">
+    <h1>Workshop Description</h1>
+    <hr width=500px>
+</div>
+<section  class="border border-dark rounded">
+      <h1 class="display-5 text-center "><?php echo $name;?></h1>
+      <hr class="mt-0 mb-1" width=900px>
+      <h2 class="display-6 text-center mt-3 border-bottom">Abstract</h2>
+      <p class="mt-4 mx-5  pl-2"><?php echo $abstract;?>
+      </div>
+    </center>
+
+
+       
+</div>
                                         
                                         
                                     </div>
-                                </article>
+                               
+
+							</div>
                                 </div>
                         </div>
-                    </section>	
-                       <!--     <div class="col-md-8">
+                    </section>
+    
+
+
+
+                       <!--   <div class="col-md-8">
                                 <article class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
                                     <div class="blog-post-image">
                                         

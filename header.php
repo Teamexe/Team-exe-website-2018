@@ -30,16 +30,9 @@
                             <li><a href="about.php" class="tooltip-show" data-toggle="tooltip" title="About - Team .EXE">About</a></li>
                             <li><a href="contact.php" class="tooltip-show" data-toggle="tooltip" title="Contact - Team .EXE">Contact</a></li>
                             
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Paradox <span class="caret"></span></a>
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li><a href="https://teamexe.in/paradox" target = "blank" class="tooltip-show" data-toggle="tooltip" title="Paradox Web" >Paradox Web</a></li>
-                                        <li><a href="https://play.google.com/store/apps/details?id=com.exe.paradoxplay" target="_blank" class="tooltip-show" data-toggle="tooltip" title="Paradox App">Paradox App</a></li>
-                                        
-                                        
-                                        </ul>
-                                </div>
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=com.exe.paradoxplay">Paradox </a>
+                                
                             </li>
                             
                             <li class="dropdown">
@@ -59,7 +52,7 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities <span class="caret"></span></a>
                                 <div class="dropdown-menu">
                                     <ul>
-                            <li><a href="projects.php" class="tooltip-show" data-toggle="tooltip" title="View Projects by Team .EXE">Projects</a></li>
+                            <li><a href="projects.php?p_id=1" class="tooltip-show" data-toggle="tooltip" title="View Projects by Team .EXE">Projects</a></li>
                             <li><a href="events.php" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">Events</a></li>
                             <li><a href="workshops.php" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">workshops</a></li>
                             

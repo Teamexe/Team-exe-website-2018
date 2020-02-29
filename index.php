@@ -88,15 +88,13 @@ $(document).ready(function () {
 -->
  <!--<a href="http://exe.nith.ac.in/paradox" target="_blank"><img src="images/paradox.jpeg" alt="NITH Confessions" style="width: 100%" /></a>-->
 
-<img src="images/award_exe.jpg" style="float: left ;width: 50%;">
-<img src="images/exe_pixo.jpg" style="float: left ;width: 50%;">
+<img src="images/home_1.jpg" style="float: left ;width: 50%;">
+<img src="images/home_2.jpg" style="float: left ;width: 50%; height: 597px;">
 <p style="clear: both;">
 <br/>
 </p>
 
 <div class="container">
-<a href="https://teamexe.in/paradox" target="_blank" alt = "Paradox by Team .EXE"><center><h1><b>PARADOX IS NOW LIVE</b></h1></center></a>
-<a href="https://teamexe.in/paradox" target="_blank"><img src="images/para_final.jpg" alt = "Paradox by Team .EXE" style="float: center ;width: 100%;"></a>
 
 </div>
 <section id="blog-full-width">
