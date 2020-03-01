@@ -6,37 +6,37 @@
                                         <ul>
                                             <li></li>
                                             <li>
-                                                <a>NITH Chatbot</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=1">Crypto-Net</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Online Outpass System</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=2">Sign Language Translation &<br>Voice Recognition </a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Arduino Based Fighting Robot</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=3">AI Mirror</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Self-Playing Mario Bot</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=4">Touch Screen using Computer Vision</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Sophisticated Polling Application</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=5">Hate Message Detection</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Exeplore</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=6">I-Artist</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>VR-Based Multiplayer Application</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=7">Medirex Toolkit</a> <span class="badge">New</span>
                                             </li>
                                              <li>
-                                                <a>Automated Invigilator Duty Scheduler</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=8">Driver Surveillance System</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Handwriting Recognition</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=9">Real Time Vehicle Number Plate <br>Recognition</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Face Recognition</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=10">Online Semester Registration</a> <span class="badge">New</span>
                                             </li>
                                             <li>
-                                                <a>Virtual Keyboard</a> <span class="badge">New</span>
+                                                <a href="./projects.php?p_id=11">Nith Portfolio</a> <span class="badge">New</span>
                                             </li>
                                             <li></li>
                                         </ul>

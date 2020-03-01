@@ -43,12 +43,55 @@
                                     </div>
                                     <div class="blog-content">
 
-                                        <h2 class="blogpost-title">
-                                        <a>Description of projects</a>
-                                        </h2>
-                                        <p>
-                                            Coming soon.
-                                        </p>
+                                        <?php 
+      include_once('header.php');
+      include_once('navigation.php');
+     $p_id=$_GET['p_id'];
+      $query= "Select * from project_info Where p_id='$p_id'";
+      $result = mysqli_query($link,$query);
+      if(!$result){
+          echo "nip";
+      }
+  
+      
+?>       
+    <center>
+    <?php
+while($disp=mysqli_fetch_assoc($result)){
+  $name=$disp['p_name'];
+  $abstract=$disp['p_abstract'];
+  $socialOutcome=$disp['p_social_outcome'];
+  $learningOutcome=$disp['p_learning_outcome'];
+  $socialOutcome=(preg_split("/##/",$socialOutcome));
+  $learningOutcome=(preg_split("/##/",$learningOutcome));
+
+
+
+}
+
+?><div style ="width:1090px">
+<div class="">
+    <h1>Projects Description</h1>
+    <hr width=500px>
+</div>
+<section  class="border border-dark rounded">
+      <h1 class="display-5 text-center "><?php echo $name;?></h1>
+      <hr class="mt-0 mb-1" width=900px>
+      <h2 class="display-6 text-center mt-3 border-bottom">Abstract</h2>
+      <p class="mt-4 mx-5  pl-2"><?php echo $abstract;?>
+      <h2 class="display-6 text-center mt-3 border-bottom">Social Outcome</h2>
+      <p class="mt-4 mx-5  pl-2"><?php foreach($socialOutcome as $key=>$value){
+   print "<li> $value</li>\n";
+}?>
+      <h2 class="display-6 text-center mt-3 border-bottom">Learning Outcome</h2>
+      <p class="mt-4 mx-5  pl-2"><?php foreach($learningOutcome as $key=>$value){
+   print "<li> $value</li>\n";
+}?></div>
+    </center>
+
+
+       
+</div>
                                         
                                         
                                     </div>
@@ -59,6 +102,7 @@
                         </div>
                     </section>
     
+</div>
 </div>
 <?php
     include_once('footer.php');

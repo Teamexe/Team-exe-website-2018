@@ -29,15 +29,15 @@
                                         <ul>
                                             <li></li>
   											<li>
-                                                <a href="https://teamexe.in/paradox" target="_blank">Paradox 11.0</a><span class="badge" style="color: #00FF00">Ongoing</span>
+                                                <a href="https://teamexe.in/paradox" target="_blank">Paradox 13.0</a><span class="badge" style="color: #00FF00">Coming Soon</span>
                                             </li>                                      
                                             <li>
-                                                <a>Hunt the Code 4.0</a> <span class="badge" <!--style="color: #800080">New</span>
+                                                <a href="./events.php?e_id=2">Exeplore 7.0</a> <span class="badge" <!--style="color: #800080">New</span>
                                             </li>
                                             <li>
-                                                <a>Game Of Codes 5.0</a> <span class="badge" <!--style="color: #800080">New</span>
+                                                <a href="./events.php?e_id=3">Game Of Codes 7.0</a> <span class="badge" <!--style="color: #800080">New</span>
                                             </li>
-                                            <li>
+                                        <!--    <li>
                                                 <a>Big-Oh(Long Challenge)</a> <span class="badge" <!--style="color: #800080">New</span>
                                             </li>
                                             <li>
@@ -49,7 +49,7 @@
                                             <li>
                                                 <a>Decodance</a> <span class="badge" <!--style="color: #800080">New</span>
                                             </li>
-                                            <li></li>   
+                                            <li></li>  --> 
                                         </ul>
                                     </div>
 								
@@ -58,16 +58,16 @@
                                         <ul>
                                             <li></li>
                                             <li>
-                                                <a>Code swap 4.0</a> <span class="badge" <!--style="color: #800080">New</span>
+                                                <a href="./events.php?e_id=4">Capture The Flag (NITH-CTF 1.0)</a> <span class="badge" <!--style="color: #800080">New</span>
                                             </li>
                                             <li>
-                                                <a>Nith-Hacks 2.0</a> <span class="badge" <!--style="color: #800080">New</span>
+                                                <a href="./events.php?e_id=5">Code Swap</a> <span class="badge" <!--style="color: #800080">New</span>
                                             </li>
                                             <li></li>
                                         </ul>
                                     </div>
 
-                                    <div class="categories widget">
+                                    <!--<div class="categories widget">
                                         <h3 class="widget-head">Our Events (Offline)</h3>
                                         <ul>
                                             <li></li>
@@ -79,6 +79,6 @@
                                             </li>
                                             <li></li>
                                         </ul>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
