@@ -69,14 +69,14 @@ while($disp=mysqli_fetch_assoc($result)){
 
 }
 
-?><div style ="width:1090px">
+?><div style ="width:56%">
 <div class="">
     <h1>Projects Description</h1>
-    <hr width=500px>
+    <hr width=86%>
 </div>
 <section  class="border border-dark rounded">
       <h1 class="display-5 text-center "><?php echo $name;?></h1>
-      <hr class="mt-0 mb-1" width=900px>
+      
       <h2 class="display-6 text-center mt-3 border-bottom">Abstract</h2>
       <p class="mt-4 mx-5  pl-2"><?php echo $abstract;?>
       <h2 class="display-6 text-center mt-3 border-bottom">Social Outcome</h2>

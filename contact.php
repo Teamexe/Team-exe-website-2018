@@ -101,7 +101,7 @@
       <div class="container">
       <center>
       <h1>View us on Youtube</h1>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/liCWk1HLnl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe style="width:40vw;height:40vh"  src="https://www.youtube.com/embed/liCWk1HLnl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </center>
       </div>
 <section class="global-page-header">

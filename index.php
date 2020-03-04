@@ -87,10 +87,10 @@ $(document).ready(function () {
 </script>
 -->
  <!--<a href="http://exe.nith.ac.in/paradox" target="_blank"><img src="images/paradox.jpeg" alt="NITH Confessions" style="width: 100%" /></a>-->
-
-<img src="images/home_1.jpg" style="float: left ;width: 50%;">
-<img src="images/home_2.jpg" style="float: left ;width: 50%; height: 597px;">
-<p style="clear: both;">
+<div style="display:flex;">
+<img src="images/home_1.jpg" style="width: 50%;">
+<img src="images/home_2.jpg" style="width: 50%; ">
+</div><p style="clear: both;">
 <br/>
 </p>
 
