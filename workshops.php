@@ -57,8 +57,8 @@
     <center>
     <?php
 while($disp=mysqli_fetch_assoc($result)){
-  $name=$disp['p_name'];
-  $abstract=$disp['p_abstract'];
+  $name=$disp['w_name'];
+  $abstract=$disp['w_abstract'];
   
 
 
@@ -67,7 +67,7 @@ while($disp=mysqli_fetch_assoc($result)){
 
 ?><div style ="width:56%">
 <div class="">
-    <h1>Workshop Description</h1>
+    <h1>Workshop Description</h1></center>
     <hr width=86%px>
 </div>
 <section  class="border border-dark rounded">
@@ -76,7 +76,7 @@ while($disp=mysqli_fetch_assoc($result)){
       <h2 class="display-6 text-center mt-3 border-bottom">Abstract</h2>
       <p class="mt-4 mx-5  pl-2"><?php echo $abstract;?>
       </div>
-    </center>
+    
 
 
        
