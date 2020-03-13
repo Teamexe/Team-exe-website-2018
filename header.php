@@ -53,8 +53,8 @@
                                 <div class="dropdown-menu">
                                     <ul>
                             <li><a href="projects.php?p_id=1" class="tooltip-show" data-toggle="tooltip" title="View Projects by Team .EXE">Projects</a></li>
-                            <li><a href="events.php" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">Events</a></li>
-                            <li><a href="workshops.php" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">workshops</a></li>
+                            <li><a href="events.php?e_id=2" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">Events</a></li>
+                            <li><a href="workshops.php?w_id=1" class="tooltip-show" data-toggle="tooltip" title="View Events by Team .EXE">workshops</a></li>
                             
                                 </div>
                             </li>
