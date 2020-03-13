@@ -71,7 +71,7 @@ while($disp=mysqli_fetch_assoc($result)){
 
 ?><div style ="width:56%">
 <div class="">
-    <h1>Projects Description</h1>
+    <h1>Projects Description</h1></center>
     <hr width=86%>
 </div>
 <section  class="border border-dark rounded">
@@ -87,7 +87,7 @@ while($disp=mysqli_fetch_assoc($result)){
       <p class="mt-4 mx-5  pl-2"><?php foreach($learningOutcome as $key=>$value){
    print "<li> $value</li>\n";
 }?></div>
-    </center>
+    
 
 
        

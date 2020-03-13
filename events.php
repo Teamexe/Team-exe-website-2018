@@ -23,7 +23,7 @@
       include_once('header.php');
       include_once('navigation.php');
       $e_id=$_GET['e_id'];
-      $query= "Select * from project_info Where e_id='$e_id'";
+      $query= "Select * from event_info Where e_id='$e_id'";
       $result = mysqli_query($link,$query);
       if(!$result){
           echo "nip";
@@ -50,12 +50,9 @@
 
                                     <center>
     <?php
-while($disp=mysqli_fetch_assoc($result)){$name=$disp['p_name'];
-  $abstract=$disp['p_abstract'];
-             $socialOutcome=$disp['p_social_outcome'];
-  $learningOutcome=$disp['p_learning_outcome'];
-  $socialOutcome=(preg_split("/##/",$socialOutcome));
-  $learningOutcome=(preg_split("/##/",$learningOutcome));
+while($disp=mysqli_fetch_assoc($result)){$name=$disp['e_name'];
+  $abstract=$disp['e_abstract'];
+            
 
 
 
@@ -63,7 +60,7 @@ while($disp=mysqli_fetch_assoc($result)){$name=$disp['p_name'];
 
 ?><div style ="width:56%">
 <div class="">
-    <h1>Events Description</h1>
+    <h1>Events Description</h1></center>
     <hr width=86%>
 </div>
 <section  class="border border-dark rounded">
@@ -71,7 +68,7 @@ while($disp=mysqli_fetch_assoc($result)){$name=$disp['p_name'];
       <h2 class="display-6 text-center mt-3 border-bottom">Abstract</h2>
       <p class="mt-4 mx-5  pl-2"><?php echo $abstract;?>
       </div>
-    </center>
+    
                                         
                                     </div>
                                 </article>

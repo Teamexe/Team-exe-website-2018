@@ -17,7 +17,7 @@
                     <!-- logo -->
                     <div class="navbar-brand">
                         <a href="index.php" >
-                            <img src="images/logo.png" alt="Team .EXE logo" title="Team .EXE logo"> 
+                            <img src="images/logo.png" alt="Team .EXE logo" title="Team .EXE logo" height=92vh"> 
                         </a>
                     </div>
                     <!-- /logo -->
