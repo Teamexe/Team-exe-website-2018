@@ -45,7 +45,7 @@
 
                                         <?php 
 
-     $p_id=$_GET['w_id'];
+     $w_id=$_GET['w_id'];
       $query= "Select * from workshop_info Where w_id='$w_id'";
       $result = mysqli_query($link,$query);
       if(!$result){
