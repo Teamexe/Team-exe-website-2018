@@ -1,4 +1,5 @@
 <?php 
+// i think ur use a div and create a easy website and without using lot of br tag 
           include_once('stylesheets.php');          
           include_once('dbconnect.php');
           include_once('user_session.php');
@@ -63,6 +64,7 @@
       echo "</center>";
       echo "</div>";
       echo "</div>";
+            //here ur use navigation i think ur use navigation top on the body for good view
       include_once('navigation.php');
       include_once('footer.php');
 ?>
